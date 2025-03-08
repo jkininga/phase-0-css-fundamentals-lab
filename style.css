@@ -3,3 +3,65 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+#featured-property
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  text-align: center;
+  
+}
+
+/* styles navigation bar items */
+.navbar a {
+  padding: 10px 20px; /* 10px on the left and right sides */
+  background-color: grey; /* Set background color to grey */
+  color: white; /* Text color, change it if needed */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Optional: add rounded corners */
+  margin: 0 5px; /* Optional: space out links */
+  transition: background-color 0.3s ease; /* Optional: smooth background color transition */
+  text-align: center;
+}
+/*makes navigation bar align center */
+.navbar
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto; /* Adds vertical space and centers the <p> */
+  text-align: center; /* Centers the text */
+}
+/* .div
+{
+float: left;
+} */
+
+#details {
+  clear: both; /* Clears any previous floats */
+  text-align: center; /* Optional: Centers the content inside the #details section */
+  padding: 20px 0;
+ 
+  
+}
+
+#details div
+{
+float: left;
+width: 25%;
+/* margin-right: 2%; */
+margin-bottom: 10px;
+box-sizing: border-box;
+background-color: rgb(109, 18, 18) ;
+}
